@@ -1,0 +1,118 @@
+body {
+
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar-brand {
+    background-color: lightseagreen;
+    padding: 0 3rem 0 3rem;
+}
+
+.brand_color {
+	color: white !important;
+	font-size: 1.8em;
+}
+
+.container {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0 6rem 0 6rem;
+}
+
+ .left {
+	 color: grey;
+ }
+
+.col {
+    padding-bottom: 2rem;
+}
+
+#image {
+	width: 65%;
+	height: 40%;
+	float:left;
+  }
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+a, h1,h2,h3{
+    color: lightseagreen;
+}
+
+
+h2 {
+	padding-top: 1.5rem;
+}
+
+hr {
+    padding-bottom: 1.5rem;
+}
+
+.card-block{
+    padding-top: 0.8rem;
+    background: lightseagreen;
+}
+#temp,#humid,#cloud,#wind {
+    color: white;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.container-fluid tr td {
+    white-space: nowrap;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: auto;
+}
+.table-scroll {
+	height: 32rem !important;
+    overflow-y: scroll;
+}
+th {
+    background-color:lightseagreen;
+    color: white;
+}
+td, th {
+    border: 1px solid white;
+    text-align: center;
+    padding: .2rem;
+}
+
+tr:nth-child(even) {
+    background-color:azure;
+}
+
+tr:nth-child(odd){
+	background: white;
+}
+
+
+footer {
+	text-align: center;
+}
+.fa {
+	color: lightseagreen;
+  	padding: 20px;
+  	font-size: 30px;
+  	width: 30px;
+  	text-decoration: none;
+  	margin: 5px 2px;
+  	border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.25;
+}
